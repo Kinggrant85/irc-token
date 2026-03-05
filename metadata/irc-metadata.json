@@ -1,40 +1,41 @@
 {
-    "name":  "iRunCrypto",
-    "properties":  {
-                       "creators":  [
-                                        {
-                                            "share":  100,
-                                            "address":  "DWhRHczxj49LU9Q9F8nLW38HsunFEwGjLSaaYXerYjX4"
-                                        }
-                                    ],
-                       "category":  "currency",
-                       "files":  [
-                                     {
-                                         "uri":  "https://raw.githubusercontent.com/Kinggrant85/irc-token/main/assets/irc-logo.png",
-                                         "type":  "image/png"
-                                     }
-                                 ]
-                   },
-    "description":  "The universal gaming token powering the iRunCrypto ecosystem. Play games, earn IRC, stake for rewards, and trade across 4 interconnected browser games at iruncrypto.com.",
-    "external_url":  "https://iruncrypto.com",
-    "attributes":  [
-                       {
-                           "value":  "1,000,000,000",
-                           "trait_type":  "Max Supply"
-                       },
-                       {
-                           "value":  "6",
-                           "trait_type":  "Decimals"
-                       },
-                       {
-                           "value":  "Gaming",
-                           "trait_type":  "Category"
-                       },
-                       {
-                           "value":  "Solana Mainnet",
-                           "trait_type":  "Network"
-                       }
-                   ],
-    "symbol":  "IRC",
-    "image":  "https://raw.githubusercontent.com/Kinggrant85/irc-token/main/assets/irc-logo.png"
+  "name": "iRunCrypto",
+  "symbol": "IRC",
+  "description": "The universal gaming token powering the iRunCrypto ecosystem. Play games, earn IRC, stake for rewards, and trade across 4 interconnected browser games at iruncrypto.com.",
+  "image": "https://raw.githubusercontent.com/Kinggrant85/irc-token/main/assets/irc-logo.png",
+  "external_url": "https://iruncrypto.com",
+  "properties": {
+    "creators": [
+      {
+        "share": 100,
+        "address": "DWhRHczxj49LU9Q9F8nLW38HsunFEwGjLSaaYXerYjX4"
+      }
+    ],
+    "category": "currency",
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/Kinggrant85/irc-token/main/assets/irc-logo.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "links": {
+    "website": "https://iruncrypto.com",
+    "twitter": "https://x.com/iruncrypto",
+    "telegram": "https://t.me/iruncryptonow",
+    "games": [
+      "https://dynastyrealm.online",
+      "https://projectomerta.com",
+      "https://cryptotradelife.com",
+      "https://livingverse.online"
+    ]
+  },
+  "attributes": [
+    { "trait_type": "Max Supply", "value": "1,000,000,000" },
+    { "trait_type": "Decimals", "value": "6" },
+    { "trait_type": "Category", "value": "Gaming" },
+    { "trait_type": "Network", "value": "Solana Mainnet" },
+    { "trait_type": "Twitter", "value": "@iruncrypto" },
+    { "trait_type": "Telegram", "value": "@iruncryptonow" }
+  ]
 }
